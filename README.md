@@ -2,8 +2,6 @@
 
 This library provides a collection of [PSR-15](https://www.php-fig.org/psr/psr-15/) middleware to manage HTTP headers. 
 
-:exclamation: This library is extracted from the now deprecated [codeinc/psr15-middlewares](https://packagist.org/packages/codeinc/psr15-middlewares) package.
-
 
 ## The collection includes
 
@@ -21,6 +19,9 @@ This library is available through [Packagist](https://packagist.org/packages/cod
 ```bash
 composer require codeinc/http-headers-middleware
 ```
+
+:speech_balloon: This library is extracted from the now deprecated [codeinc/psr15-middlewares](https://packagist.org/packages/codeinc/psr15-middlewares) package.
+
 
 ## License
 
