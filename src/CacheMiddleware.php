@@ -22,7 +22,7 @@
 declare(strict_types = 1);
 namespace CodeInc\HttpHeadersMiddleware;
 use CodeInc\HttpHeadersMiddleware\Tests\CacheMiddlewareTest;
-use GuzzleHttp\Psr7\Response;
+use CodeInc\Psr7Responses\NotModifiedResponse;
 use Micheh\Cache\CacheUtil;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -183,7 +183,7 @@ class CacheMiddleware implements MiddlewareInterface
 		if ($this->lastModified) {
 			$response = $cacheUtils->withLastModified($response, $this->lastModified);
 			if ($cacheUtils->isNotModified($request, $response)) {
-				return new Response(304);
+				return new NotModifiedResponse();
 			}
 		}
 
