@@ -1,6 +1,6 @@
 {
   "name": "codeinc/http-headers-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of PSR-15 middleware to manage HTTP headers",
   "homepage": "https://github.com/CodeIncHQ/HttpHeadersMiddleware",
   "type": "library",
@@ -11,7 +11,7 @@
     "psr/http-server-middleware": "^1.0",
     "psr/http-server-handler": "^1.0",
     "micheh/psr7-cache": "^0.5.0",
-    "codeinc/psr7-responses": "^1.2"
+    "codeinc/psr7-responses": "^2"
   },
   "require-dev": {
     "phpunit/phpunit": "^7",
