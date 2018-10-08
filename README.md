@@ -1,4 +1,4 @@
-# HTTP headers PSR-15 middlewares 
+# HTTP headers PSR-15 middleware
 
 This library provides a collection of [PSR-15](https://www.php-fig.org/psr/psr-15/) middleware to manage HTTP headers. 
 
